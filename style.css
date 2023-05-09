@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Nunito&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.heading {
+  font-family: "Montserrat", sans-serif;
+}
+.sub-heading {
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: #6c757d;
+}
+.r-desc{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.bg-sec{
+  background-color: #F8F9FA;
+}
+
+/* navigation */
+.r-nav{
+  background: transparent;
+  padding: 20px 0;
+  transition: .5s all;
+}
+nav .navbar-brand{
+  font-size: 2.2rem;
+  color: #fff;
+}
+nav .navbar-nav li a{
+  color: rgba(255, 255, 255, 0.8) !important;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  font-family: "Nunito";
+}
+nav .navbar-nav li{
+  margin-left: 15px;
+}
+nav.r-nav.stickyadd{
+  background: white!important;
+  padding: 15px 0;
+  box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.05);
+  transition: .5s all ease-in-out;
+  height: 60px;
+}
+nav.stickyadd .navbar-brand{
+  color: black;
+  font-size: 2.8rem;
+  transition: .5s all;
+}
+nav.stickyadd .navbar-nav .nav-link{
+  color: #000000 !important;
+}
+.navbar .hamburger{
+  color: white;
+}
+nav.stickyadd .hamburger{
+  color: #000;
+}
+
+/* header */
+header{
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/images/back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.header-content{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.content-box{
+  max-width: 700px;
+  color: #fff;
+}
+.content-box h4{
+  font-size: 2.6rem;
+}
+.content-box h1{
+  font-size: 52px;
+}
+.content-box a{
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 5px 25px;
+}
+.content-box a:hover{
+  color: #000;
+  background-color: white;
+  transition: .5s all;
+}
+
+/* social icons */
+.about li a{
+  color: #000;
+  display: inline-block;
+  height: 42px;
+  width: 42px;
+  font-size: 1.4rem;
+  border: 2px solid #d4d4d4;
+  border-radius: 50%;
+  line-height: 40px;
+  transition: 0.5s all;
+  text-align: center;
+}
+.about li a:hover{
+  color: #EE8683;
+}
+
+/* my skills */
+.exp-class .progress{
+  height: 20px;
+  border-radius: 20px;
+  font-size: 10px;
+}
+.exp-class .progress .progress-bar{
+  background-color: #EE8683 !important;
+}
+.exp-class label{
+  font-size: 20px;
+  margin: 10px;
+}
+
+/* service */
+.card .card-header{
+  background: #F8F9FA !important;
+}
+.card-header{
+  border: none !important;
+}
+.services-class .card-header i {
+  font-size: 50px;
+}
+.service-border{
+  height: 2px;
+  width: 40px;
+  margin: 15px auto;
+  background: #e65f78;
+}
